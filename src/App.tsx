@@ -1,16 +1,16 @@
 import { FC } from "react";
-import Navbar from "./components/Navbar";
-import MobileNavbar from "./components/MobileNavbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
+import { Route, Routes } from "react-router-dom";
+import Pictures from "./components/Pictures";
+import Home from "./components/Home";
 
 const App: FC = () => {
   return (
     <div>
-      <Navbar />
-      <MobileNavbar />
-      <Hero />
-      <About />
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="gallery" element={<Pictures />} />
+      </Routes>
     </div>
   );
 };

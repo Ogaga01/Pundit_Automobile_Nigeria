@@ -11,7 +11,7 @@ const Navbar: FC = () => {
         spy={true}
         smooth={true}
         duration={500}
-        to="hero"
+        to="/"
       >
         <img
           className={styles["navigation__image"]}
