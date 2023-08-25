@@ -1,0 +1,66 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+
+.services {
+  background-image: url("./../images/clutch.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    background-color: #0000007d;
+    padding: 2rem;
+
+    &--head {
+      color: $color-white;
+      font-size: 3rem;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    &--sub {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+
+      @include respond(phone) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &--service {
+      width: 50%;
+
+      @include respond(phone) {
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    &--h2 {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+
+    &--li {
+      font-size: 2rem;
+      font-weight: 400;
+      color: $color-white;
+
+      @include respond(mob-nav) {
+        font-size: 1.5rem;
+      }
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+}

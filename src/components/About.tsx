@@ -19,11 +19,13 @@ const About: FC = () => {
           ★★★★★ AVERAGE REVIEWS RATING{" "}
         </h2>
       </div>
-      <img
-        className={styles["about__image"]}
-        src={aboutPic}
-        alt="about picture"
-      />
+      <div className={styles["about__div--img"]}>
+        <img
+          className={styles["about__image"]}
+          src={aboutPic}
+          alt="about picture"
+        />
+      </div>
     </section>
   );
 };

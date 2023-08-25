@@ -53,7 +53,7 @@ const responsive = {
 
 const Gallery: FC = () => {
   return (
-    <div className={styles.div}>
+    <div id="gallery" className={styles.div}>
       <h1 className={styles["head"]}>Our Gallery</h1>
       <Carousel
         className={styles["carousel"]}

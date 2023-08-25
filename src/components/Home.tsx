@@ -4,15 +4,19 @@ import About from "./About";
 import Hero from "./Hero";
 import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
+import Services from "./Services";
 
 const Home: FC = () => {
-  return <div>
-    <Navbar />
+  return (
+    <div>
+      <Navbar />
       <MobileNavbar />
       <Hero />
       <About />
+      <Services />
       <Gallery />
-  </div>;
+    </div>
+  );
 };
 
 export default Home;
