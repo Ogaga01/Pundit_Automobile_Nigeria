@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
 import Services from "./Services";
+import Contact from "./Contact";
 
 const Home: FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: FC = () => {
       <About />
       <Services />
       <Gallery />
+      <Contact />
     </div>
   );
 };
