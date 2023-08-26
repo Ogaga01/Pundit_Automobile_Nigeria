@@ -6,6 +6,7 @@ import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
 import Services from "./Services";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Home: FC = () => {
   return (
@@ -17,6 +18,7 @@ const Home: FC = () => {
       <Services />
       <Gallery />
       <Contact />
+      <Footer/>
     </div>
   );
 };
