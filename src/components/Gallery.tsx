@@ -15,7 +15,6 @@ import pundit12 from "./../images/pundit12.png";
 import pundit13 from "./../images/pundit13.png";
 import pundit14 from "./../images/pundit14.png";
 import styles from "./../sass/_gallery.module.scss";
-import { Link } from "react-router-dom";
 
 const images = [
   pundit1,
@@ -73,9 +72,7 @@ const Gallery: FC = () => {
           );
         })}
       </Carousel>
-      <Link className={styles["link"]} to="gallery">
-        More Photos &rarr;
-      </Link>
+      
     </div>
   );
 };

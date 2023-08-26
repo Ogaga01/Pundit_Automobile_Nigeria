@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Gallery from "./Gallery";
+// import Gallery from "./Gallery";
 import About from "./About";
 import Hero from "./Hero";
 import MobileNavbar from "./MobileNavbar";
@@ -16,7 +16,7 @@ const Home: FC = () => {
       <Hero />
       <About />
       <Services />
-      <Gallery />
+      {/* <Gallery /> */}
       <Contact />
       <Footer/>
     </div>

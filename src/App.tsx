@@ -6,10 +6,9 @@ import Home from "./components/Home";
 const App: FC = () => {
   return (
     <div>
-      
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="gallery" element={<Pictures />} />
+        <Route path="about" element={<Pictures />} />
       </Routes>
     </div>
   );

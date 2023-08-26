@@ -1,6 +1,7 @@
 import { FC } from "react";
 import aboutPic from "./../images/pundit24.png";
 import styles from "./../sass/_about.module.scss";
+import { Link } from "react-router-dom";
 
 const About: FC = () => {
   return (
@@ -15,6 +16,9 @@ const About: FC = () => {
           Mobile Nigeris is not a National Chain, it’s locally owned and managed
           business providing superior products and services at a fair price.
         </p>
+        <Link className={styles["link"]} to="gallery">
+          More About Us &rarr;
+        </Link>
       </div>
       <div className={styles["about__div--img"]}>
         <img

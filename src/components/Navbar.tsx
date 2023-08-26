@@ -23,27 +23,57 @@ const Navbar: FC = () => {
       <nav className={styles["navigation__nav"]}>
         <ul className={styles["navigation__list"]}>
           <li className={styles.navlink}>
-            <Link spy={true} smooth={true} duration={500} to="hero">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              to="hero"
+            >
               Home
             </Link>
           </li>
           <li className={styles.navlink}>
-            <Link spy={true} smooth={true} duration={500} to="about">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              to="about"
+            >
               About
             </Link>
           </li>
           <li className={styles.navlink}>
-            <Link spy={true} smooth={true} duration={500} to="services">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              to="services"
+            >
               Services
             </Link>
           </li>
-          <li className={styles.navlink}>
-            <Link spy={true} smooth={true} duration={500} to="gallery">
+          {/* <li className={styles.navlink}>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              to="gallery"
+            >
               Gallery
             </Link>
-          </li>
+          </li> */}
           <li className={styles.navlink}>
-            <Link spy={true} smooth={true} duration={500} to="contact">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              to="contact"
+            >
               Contact
             </Link>
           </li>
