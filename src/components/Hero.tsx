@@ -6,7 +6,7 @@ const Hero: FC = () => {
     <section id="hero" className={styles["hero"]}>
       <div className={styles["hero__div"]}>
         <h1 className={styles["hero__div--head1"]}>
-          Pundit Auto mobile Nigeria
+          Pundit Auto-mobile Nigeria
         </h1>
         <h2 className={styles["hero__div--head2"]}>
           Your trusted specialists for a professional diagnosis, maintainance,

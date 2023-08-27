@@ -41,6 +41,7 @@ const MobileNavbar: FC = () => {
             spy={true}
             smooth={true}
             duration={500}
+            offset={-90}
             to="hero"
             className={styles.navlink}
             onClick={showMenu}
@@ -51,6 +52,7 @@ const MobileNavbar: FC = () => {
             spy={true}
             smooth={true}
             duration={500}
+            offset={-150}
             to="about"
             className={styles.navlink}
             onClick={showMenu}
@@ -61,13 +63,14 @@ const MobileNavbar: FC = () => {
             spy={true}
             smooth={true}
             duration={500}
+            offset={-150}
             className={styles.navlink}
             onClick={showMenu}
             to="services"
           >
             Services
           </Link>
-          <Link
+          {/* <Link
             spy={true}
             smooth={true}
             duration={500}
@@ -76,11 +79,12 @@ const MobileNavbar: FC = () => {
             onClick={showMenu}
           >
             Gallery
-          </Link>
+          </Link> */}
           <Link
             spy={true}
             smooth={true}
             duration={500}
+            offset={-90}
             className={styles.navlink}
             onClick={showMenu}
             to="contact"

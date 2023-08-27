@@ -16,7 +16,7 @@ const About: FC = () => {
           Mobile Nigeris is not a National Chain, it’s locally owned and managed
           business providing superior products and services at a fair price.
         </p>
-        <Link className={styles["link"]} to="gallery">
+        <Link className={styles["link"]} to="about">
           More About Us &rarr;
         </Link>
       </div>

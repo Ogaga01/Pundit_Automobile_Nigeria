@@ -6,7 +6,7 @@ const Contact: FC = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
-  const [date, setDate] = useState<string>('')
+  const [date, setDate] = useState<string>("");
   const [text, setText] = useState<string>("");
 
   const handleName = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -31,7 +31,7 @@ const Contact: FC = () => {
 
   return (
     <section id="contact" className={styles["contact"]}>
-      <h1 className={styles["contact__heading"]}>Contact</h1>
+      <h1 className={styles["contact__heading"]}>Contact Us</h1>
       <div className={styles["contact__body"]}>
         <div className={styles["contact__body--image"]}>
           <img
@@ -41,7 +41,7 @@ const Contact: FC = () => {
           />
         </div>
         <form
-          action="https://formspree.io/f/mwkdowpn"
+          action="https://formspree.io/f/mqkvqnlk"
           method="post"
           className={styles["contact__body--form"]}
         >

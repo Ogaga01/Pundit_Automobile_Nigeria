@@ -43,7 +43,7 @@ const Services: FC = () => {
                 ✓ Drivability Controls
               </li>
               <li className={styles["services__section--li"]}>
-                ✓ Emission Repairs and Services
+                ✓ Ignition/Emission Repairs and Services
               </li>
               <li className={styles["services__section--li"]}>
                 ✓ Interior/Exterior Ambient Lighting Decorations
@@ -68,6 +68,9 @@ const Services: FC = () => {
               </li>
               <li className={styles["services__section--li"]}>
                 ✓ Sales/After-sales Quality Control Checks
+              </li>
+              <li className={styles["services__section--li"]}>
+                ✓ Body Upgrading and Upholstry
               </li>
             </ul>
           </div>

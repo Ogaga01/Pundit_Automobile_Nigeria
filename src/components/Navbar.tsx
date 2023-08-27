@@ -18,7 +18,7 @@ const Navbar: FC = () => {
           src={logo}
           alt="Pundit Auto logo"
         />
-        <p>Pundit Auto Mobile Nigeria</p>
+        <p>Pundit Auto-Mobile Nigeria</p>
       </Link>
       <nav className={styles["navigation__nav"]}>
         <ul className={styles["navigation__list"]}>
