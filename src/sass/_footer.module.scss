@@ -1,0 +1,54 @@
+@import "variables";
+@import "mixins";
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3rem;
+  align-items: center;
+  background-color: $color-primary;
+  margin-top: 2rem;
+
+  &__images {
+    display: flex;
+    width: 40%;
+    gap: 2rem;
+
+    @include respond(mob-nav) {
+      width: 50%;
+    }
+
+    &--img {
+      width: 20%;
+
+      @include respond(mob-nav) {
+        width: 30%;
+      }
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    color: $color-white;
+
+    &--div {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--icon {
+      font-size: 3rem;
+    }
+
+    &--p {
+      font-size: 1.2rem;
+    }
+  }
+}
