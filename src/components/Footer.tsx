@@ -2,8 +2,8 @@ import { FC } from "react";
 import logo from "./../images/pundit_logo (1).png";
 import qualification from "./../images/pundit36.png";
 import { CiLocationOn } from "react-icons/ci";
-import { BsTelephone } from "react-icons/bs";
-import { AiOutlineClockCircle } from "react-icons/ai";
+import { BsTelephone, BsInstagram } from "react-icons/bs";
+import { AiOutlineClockCircle, AiOutlineYoutube } from "react-icons/ai";
 import styles from "./../sass/_footer.module.scss";
 
 const Footer: FC = () => {
@@ -28,10 +28,7 @@ const Footer: FC = () => {
         </div>
         <div className={styles["footer__details--div"]}>
           <CiLocationOn className={styles["footer__details--icon"]} />
-          <p className={styles["footer__details--p"]}>
-            Unit 1, Terrace 6A, Grenadine Estate, Phase 1, ShopRite bus stop,
-            Monastery Road, Sangotedo, Ajah, Lagos
-          </p>
+          <p className={styles["footer__details--p"]}>Lekki, Lagos.</p>
         </div>
         <div className={styles["footer__details--div"]}>
           <AiOutlineClockCircle className={styles["footer__details--icon"]} />
@@ -41,6 +38,18 @@ const Footer: FC = () => {
             </p>
             <p className={styles["footer__details--p"]}>Sat: 9:00AM - 4:00PM</p>
           </div>
+        </div>
+        <div className={styles["footer__details--div"]}>
+          <AiOutlineYoutube className={styles["footer__details--icon"]} />
+          <p className={styles["footer__details--p"]}>
+            punditautomobilenigeria1
+          </p>
+        </div>
+        <div className={styles["footer__details--div"]}>
+          <BsInstagram className={styles["footer__details--icon"]} />
+          <p className={styles["footer__details--p"]}>
+            pundit_auto_mobile_nigeria1
+          </p>
         </div>
       </div>
     </footer>

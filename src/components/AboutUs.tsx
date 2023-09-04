@@ -45,6 +45,9 @@ import pundit56 from "./../images/pundit56.png";
 import pundit57 from "./../images/pundit57.png";
 import pundit58 from "./../images/pundit58.png";
 import pundit59 from "./../images/pundit59.png";
+import pundit60 from "./../images/pundit60.png";
+import pundit61 from "./../images/pundit61.png";
+import pundit62 from "./../images/pundit62.png";
 import styles from "./../sass/_aboutus.module.scss";
 import Pictures from "./Pictures";
 
@@ -99,14 +102,40 @@ const images = [
   pundit57,
   pundit59,
   pundit58,
+  pundit61,
+  pundit62,
 ];
 
 const AboutUs: FC = () => {
   return (
     <div className={styles["about"]}>
       <div className={styles["about__ceo"]}>
-        <div className={styles["about__ceo--image"]}></div>
-        <div className={styles["about__ceo--info"]}></div>
+        <div className={styles["about__ceo--image"]}>
+          <img
+            className={styles["about__ceo--img"]}
+            src={pundit60}
+            alt={pundit60}
+          />
+        </div>
+        <div className={styles["about__ceo--info"]}>
+          <h1 className={styles["about__ceo--head"]}>About The CEO</h1>
+          <p className={styles["about__ceo--para"]}>
+            Israel Nomshu Joseph is a professional Auotmotive technician. He is
+            the CEO of Pundit Auto-mobile Nigeria (PAN JR.) located at Lekki,
+            Lagos, Nigeria. He is undoubtably one of the best Graduating
+            students of Peugeot Automobile Nigeria Training Center (PAN), Kaduna
+            state, Nigeria. He is awarded a professional international City &
+            Guilds diploma certificate from the prestigious London institute. He
+            is one of the most dynamic staff at the estimate companies he has
+            worked with like Trend's Automobile Ltd. Abuja, ASD Motors Abuja,
+            Froshtech Lagos. He is insightful, motivated and creative and
+            disciplined.
+          </p>
+          <p className={styles["about__ceo--para1"]}>
+            "Many aspire for greatness, however only a few ever attain true
+            greatness in their lifetime."
+          </p>
+        </div>
       </div>
       <div className={styles["about__work"]}>
         <h1 className={styles["about__work--head"]}>Gallery</h1>
